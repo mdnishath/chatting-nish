@@ -1,12 +1,12 @@
 import React from "react";
 import Container from "../components/Container";
 
-const Message = () => {
+const Notification = () => {
   return (
     <Container>
-      <div>Message</div>
+      <div>Notification</div>
     </Container>
   );
 };
 
-export default Message;
+export default Notification;

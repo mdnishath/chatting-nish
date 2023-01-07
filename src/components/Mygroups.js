@@ -1,13 +1,13 @@
 import React from "react";
 
-const GroupList = () => {
+const Mygroups = () => {
   return (
     <div className="h-[360px] w-full overflow-x-hidden rounded-xl bg-white p-5 shadow-all">
       <div className="flex justify-between">
-        <h3 className=" text-2xl font-semibold text-primary">Group List</h3>
+        <h3 className=" text-2xl font-semibold text-primary">My Groups</h3>
         <div>
           <button className="inline-block px-4 py-1 text-lg font-semibold text-primary">
-            Create
+            Search
           </button>
         </div>
       </div>
@@ -72,4 +72,4 @@ const GroupList = () => {
   );
 };
 
-export default GroupList;
+export default Mygroups;

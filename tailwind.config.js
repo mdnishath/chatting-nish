@@ -13,7 +13,8 @@ module.exports = {
         primary: "#6C63FF",
       },
       boxShadow: {
-        all: "0px 0px 70px -1px rgba(108,99,255,0.2)",
+        all: "0px 0px 40px -1px rgba(108,99,255,0.2)",
+        btn: "0px 5px 20px -1px rgba(108,99,255,0.7)",
       },
     },
   },
