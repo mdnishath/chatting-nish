@@ -14,11 +14,11 @@ const Message = () => {
   return (
     <Container>
       <div className="mx-auto flex w-full flex-col gap-y-8 gap-x-8 md:flex-row md:flex-wrap ">
-        <div className="order-2 flex flex-col gap-y-5 px-5 sm:order-1 md:w-full lg:w-1/3">
+        <div className="order-2 flex flex-col gap-y-9 px-5 sm:order-1 md:w-full lg:w-1/3">
           <GroupList />
           <FriendList />
         </div>
-        <div className="relative order-1 mx-5 flex h-[600px] grow flex-col gap-y-5 overflow-x-hidden rounded-xl bg-white px-5 shadow-all sm:order-2 sm:h-[740px] md:w-full lg:w-1/3">
+        <div className="relative order-1 mx-5 flex h-[600px] grow flex-col gap-y-5 overflow-x-hidden rounded-xl bg-white px-5 shadow-all sm:order-2 sm:h-[750px] md:w-full lg:w-1/3">
           <div className="">
             <div className="px-5">
               <div className=" border-b px-5 pt-5">
