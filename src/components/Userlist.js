@@ -1,4 +1,5 @@
 import React from "react";
+import { BsSearch } from "react-icons/bs";
 
 const Userlist = () => {
   return (
@@ -7,7 +8,7 @@ const Userlist = () => {
         <h3 className=" text-2xl font-semibold text-primary">User List</h3>
         <div>
           <button className="inline-block px-4 py-1 text-lg font-semibold text-primary">
-            Search
+            <BsSearch />
           </button>
         </div>
       </div>

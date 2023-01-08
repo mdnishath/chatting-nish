@@ -5,10 +5,11 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 import { FiSettings } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 const Sidbar = () => {
-  const active = "bg-white rounded text-primary lg:px-5 lg:py-4 px-2 py-2";
+  const active =
+    "bg-white rounded text-primary lg:px-5 lg:py-4 px-2 py-2 shadow-bar";
   const notActive = "bg-transparent lg:px-5 lg:py-4 text-white px-2 py-2";
   return (
-    <div className="fixed bottom-0 w-full bg-primary px-4 md:top-0 md:left-0 md:h-full md:w-[100px] md:px-0 ">
+    <div className="fixed bottom-0 z-[100] w-full bg-primary px-4 md:top-0 md:left-0 md:h-full md:w-[100px] md:px-0">
       <div className="flex items-center justify-between gap-y-8 py-5 md:h-full md:flex-col">
         <div className="flex justify-around gap-x-8 md:flex-col md:gap-y-8">
           <NavLink
