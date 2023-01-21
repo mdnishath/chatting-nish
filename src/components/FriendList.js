@@ -21,7 +21,10 @@ const FriendList = () => {
             <div className="pl-5">
               <h4 className="text-base font-semibold">Nishath Khandakar</h4>
             </div>
-            <div className="flex grow justify-end">
+            <div className="flex grow justify-end gap-2">
+              <button className="inline-block rounded-full bg-primary px-4 py-1 text-[12px] font-semibold text-white shadow-btn">
+                Unfriend
+              </button>
               <button className="inline-block rounded-full bg-primary px-4 py-1 text-[12px] font-semibold text-white shadow-btn">
                 Block
               </button>

@@ -9,9 +9,9 @@ const Sidbar = () => {
     "bg-white rounded text-primary lg:px-5 lg:py-4 px-2 py-2 shadow-bar";
   const notActive = "bg-transparent lg:px-5 lg:py-4 text-white px-2 py-2";
   return (
-    <div className="fixed bottom-0 z-[100] w-full bg-primary px-4 md:top-0 md:left-0 md:h-full md:w-[100px] md:px-0">
-      <div className="flex items-center justify-between gap-y-8 py-5 md:h-full md:flex-col">
-        <div className="flex justify-around gap-x-8 md:flex-col md:gap-y-8">
+    <div className="fixed bottom-0 z-[100] w-full bg-primary px-4 lg:top-0 lg:left-0 lg:h-full lg:w-[100px] lg:px-0">
+      <div className="flex items-center justify-between gap-y-8 py-5 lg:h-full lg:flex-col">
+        <div className="flex justify-around gap-x-8 lg:flex-col lg:gap-y-8">
           <NavLink
             to="/"
             className={({ isActive }) => (isActive ? active : notActive)}
